@@ -1,0 +1,35 @@
+{
+  "name": "node-ping",
+  "version": "0.2.0",
+  "description": "Node uptime monitor - testing git and nodejs from: https://github.com/qawemlilo/node-ping ",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyberspider/node-ping.git"
+  },
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha test/ping.js"
+  },
+  "keywords": [
+    "uptime",
+    "monitor"
+  ],
+  "dependencies": {
+    "ping-monitor": "~0.1.0",
+    "nodemailer": "0.3.x"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "should": "~1.2.1"
+  },
+  "author": "Herald Smit",
+  "license": "MIT",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}
